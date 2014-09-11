@@ -1,10 +1,18 @@
 function setup() {
   createCanvas(640, 480);
-  background(0);
-  stroke(255);
+  background(128, 0, 64);
   noFill();
 
-  line(10, 10, 90, 10); // x1, y1, x2, y2
-    rect(20, 20, 80, 50); // x, y, width, height
-    ellipse(50, 50, 50, 50); // centerX, centerY, width, height
+  stroke(255, 0, 0);
+
+  var x;
+
+  x = 100;
+  ellipse(x, 100, 50, 50);
+
+  x = 250;
+  ellipse(x, 100, 50, 50);
+
+  x = 300;
+  ellipse(x, 100, 50, 50);
 }
