@@ -20,5 +20,5 @@ for (var x = 1; x <=3; x++)
 {
   ellipse(x * 100, 100, 50, 50);
 } 
- ellipse(320,240,);
+ ellipse(320,240, size, size);
 }
